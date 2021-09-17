@@ -1,8 +1,85 @@
-:root{
-
+:root {
+  --titel-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
 }
 
 body {
-    font-family: Roboto; serif;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+.btn {
+  cursor: pointer;
+}
+/* -----HEADER----- */
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--titel-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* -----HERO----- */
+.hero {
+  background: #2e3362;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }

@@ -7,7 +7,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
+}
+
+.title {
+  color: var(--titel-color);
 }
 
 .link {
@@ -20,10 +24,23 @@ body {
 .btn {
   cursor: pointer;
 }
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
 /* -----HEADER----- */
 
 .header {
   background-color: #ffffff;
+}
+
+.header-logo {
+  color: #000000;
 }
 
 .header-link {
@@ -82,4 +99,75 @@ body {
 .hero-btn:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+
+/* -----ADVANTAGES----- */
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* -----WORK----- */
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* -----COMMAND----- */
+.command-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+}
+
+.command-name-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.command-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* -----FOOTER----- */
+.footer {
+  background: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer-adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: #ffffff;
+}
+
+.footer-address-text {
+  font-style: normal;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }

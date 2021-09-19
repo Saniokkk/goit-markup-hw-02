@@ -10,6 +10,9 @@ body {
   color: var(--text-color);
 }
 
+.link.current {
+  color: var(--accent-color);
+}
 .title {
   color: var(--titel-color);
 }
@@ -152,9 +155,6 @@ body {
 }
 
 .footer-adress {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71px;
   color: #ffffff;
@@ -166,7 +166,6 @@ body {
 
 .footer-link {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);

@@ -32,6 +32,7 @@ body {
 .btn {
   cursor: pointer;
   border: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -73,7 +74,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--text-color);
 }
 
 .header-contacts-link:hover,
@@ -103,6 +104,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.06em;
   background: var(--accent-color);
   color: #ffffff;
 }
@@ -140,16 +142,17 @@ body {
 .command-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
 }
 
 .command-name-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
 }
+
 .command-text {
   font-size: 16px;
   line-height: 1.19;
@@ -165,14 +168,11 @@ body {
   color: var(--footer-logo);
 }
 
-.footer-adress {
-  font-size: 14px;
-  line-height: 1.71px;
-  color: #ffffff;
-}
-
 .footer-address-text {
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
 }
 
 .footer-link {
@@ -188,8 +188,9 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
-  color: #212121;
+  color: var(--titel-color);
 }
 .projects-btn:hover,
 .projects-btn:focus {
